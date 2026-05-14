@@ -96,7 +96,7 @@ This allows the model to "remember" a building's footprint from the EO data whil
 
 ---
 
-## 📊 Key Results (Expected)
+##  Key Results (Expected)
 
 | Metric | Validation | Test |
 | :--- | :--- | :--- |
@@ -106,7 +106,7 @@ This allows the model to "remember" a building's footprint from the EO data whil
 
 ---
 
-## 🔭 Future Work
+##  Future Work
 * **Cross-Attention:** Transitioning from simple concatenation fusion to attention-based weighting between EO and SAR streams.
 * **Cloud Masking:** Explicitly training a cloud-detection sub-network to ignore optical noise.
 * **GPU Scaling:** Porting the MobileNet architecture to a high-VRAM environment to increase patch size and global context.
