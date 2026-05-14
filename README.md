@@ -38,7 +38,7 @@ Utilizes a **Siamese U-Net** with a **MobileNetV2** backbone.
     2. **SAR Skip:** Injects textural/structural signatures from the post-event (even through clouds).
 * **Optimization:** Used the **Adam Optimizer** (Momentum + RMSProp) with a learning rate of $10^{-3}$ to handle the disparate gradients of the two sensors.
 
-### 6. Inference & Evaluation (`evaluate_and_visualize.py`)
+### 6. Inference & Evaluation (`evaluation.py`)
 The final script performs a patch-based inference and aggregates results into a global metric table. It focuses on **IoU, Precision, and Recall** for the "Change" class specifically, ensuring that the model isn't just "guessing" the majority background.
 
 ---
