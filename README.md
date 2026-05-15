@@ -113,3 +113,14 @@ This allows the model to "remember" a building's footprint from the EO data whil
 
 ---
 **Disclaimer:** This project was developed as a confidential technical assignment for GalaxEye Space. All findings and methodologies are the result of an intensive research-driven approach.
+
+References: 
+1 Core Deep Learning Engine: Paszke, A., et al. (2019). "PyTorch: An Imperative Style, High-Performance Deep Learning Library." NeurIPS. PyTorch Base Code
+
+Geospatial Processing Wrappers: Gillies, S., et al. (2007). Rasterio: Geospatial Raster I/O for Python Programmers. Rasterio Open-Source Repository
+
+Siamese Architectures for Change Detection: Daudt, R. C., Le Saux, B., & Boulch, A. (2018). "Fully Convolutional Siamese Networks for Change Detection." IEEE International Geoscience and Remote Sensing Symposium (IGARSS), 4063-4066. arXiv:1810.08462
+
+Lee Filtering Mechanics and Global Tabular Metrics Calculation Logic: Gemini AI 
+
+
